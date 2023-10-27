@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.md body{
+  margin: 0;
+  --font-family: 'Lato', sans-serif;
+}
+
 .text-white{
   color: white;
 }
@@ -22,6 +29,54 @@
   justify-content: center;
 }
 
+.justify-between{
+  justify-content: space-between;
+}
+
 .items-center{
   align-items: center;
+}
+
+.m-r-10{
+  margin-right: 10px;
+}
+
+.p-18-20{
+  padding: 18px 20px;
+}
+
+.p-8-20{
+  padding: 8px 20px;
+}
+
+.py-8{
+  padding: 8px 0px;
+}
+
+.px-20{
+  padding: 0px 20px;
+}
+
+.font-lato{
+  font-family: 'Lato', sans-serif;
+}
+
+.no-underline{
+  text-decoration: none;
+}
+
+.button-signup{
+  background-color: #539D98;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-weight: bold ;
+}
+
+w-full{
+  width: 100%;
+}
+
+.img-background{
+  position: relative;
+  top: -300px;
 }
