@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .md body{
-  margin: 0;
+  --margin: 0;
+  --padding: 0;
   --font-family: 'Lato', sans-serif;
 }
+
 
 .text-white{
   color: white;
 }
 
 .background-color{
-  background: black;
+  background: transparent;
 }
 
 .block{
@@ -23,6 +25,10 @@
 
 .flex{
   display: flex;
+}
+
+.relative{
+  position: relative;
 }
 
 .justify-center{
@@ -72,11 +78,38 @@
   font-weight: bold ;
 }
 
-w-full{
+.w-full{
   width: 100%;
+}
+
+.index-1{
+  z-index: 1;
 }
 
 .img-background{
   position: relative;
-  top: -300px;
+  display: flex;
+  z-index: 0;
+}
+
+.object-cover{
+  object-fit: cover;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.button-getstarted{
+  background-color: #ffffff;
+  color: #539D98;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-weight: bold ;
+  margin-top: 10px;
+}
+
+.mr-auto{
+  margin-left: auto;
+  margin-right: auto;
 }
