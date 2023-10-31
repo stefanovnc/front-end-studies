@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+@media (min-width: 640px){
+  .text-60{
+    font-size: 60px;
+  }
+}
+
 .md body{
   --margin: 0;
   --padding: 0;
@@ -90,6 +96,7 @@
   position: relative;
   display: flex;
   z-index: 0;
+
 }
 
 .object-cover{
@@ -112,4 +119,12 @@
 .mr-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.text-36{
+  font-size: 36px;
+}
+
+.text-60{
+  font-size: 60px;
 }
