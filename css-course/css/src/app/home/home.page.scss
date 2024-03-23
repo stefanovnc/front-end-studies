@@ -2,16 +2,17 @@ body{
   margin: 10;
 }
 
-.m-y5-x20{
-  margin: 5px 20px;
-}
-
 .header-style{
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
   background:#0B0338;
   z-index: 1;
+}
+
+.style-menu{
+  padding: 10px 20px;
+  color: white;
 }
 
 .display-block{
@@ -30,6 +31,4 @@ body{
   display: flex;
 }
 
-.text-white{
-  color: white;
-}
+
