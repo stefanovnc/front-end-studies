@@ -12,6 +12,11 @@ body{
   z-index: 1;
 }
 
+.style-menu{
+  padding: 10px 20px;
+  color: white;
+}
+
 .display-block{
   display: block;
 }
@@ -28,6 +33,7 @@ body{
   display: flex;
 }
 
+
 .menu-option-style{
   margin: 5px 20px;
   font-family: "Lato", sans-serif;
@@ -35,7 +41,6 @@ body{
   font-style: normal;
   color: white;
   text-decoration: none; //retirar o underline
-
 }
 
 .lato-regular{
