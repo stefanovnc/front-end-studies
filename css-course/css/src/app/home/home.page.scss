@@ -8,7 +8,7 @@ body{
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
-  background:#0B0338;
+  // background:#0B0338;
   z-index: 1;
 }
 
@@ -57,4 +57,15 @@ body{
   font-size: 14px;
   letter-spacing: 1px;
   // font-size: medium;
+}
+
+.style-img-home{
+  position: relative; //para poder mover o elemento nos eixos X, Y e Z
+  top: -85px;
+  object-fit: cover;
+  // min-height: 550px;
+}
+
+.w-full{
+  width: 100%;
 }
