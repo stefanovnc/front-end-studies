@@ -4,10 +4,18 @@ body{
   margin: 0;
 }
 
+hi{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
 .header-style{
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px 60px;
   // background:#0B0338;
   z-index: 1;
 }
@@ -60,7 +68,7 @@ body{
 }
 
 .style-img-home{
-  position: relative; //para poder mover o elemento nos eixos X, Y e Z
+  position: absolute; //para poder mover o elemento nos eixos X, Y e Z
   top: -85px;
   object-fit: cover;
   // min-height: 550px;
@@ -68,4 +76,23 @@ body{
 
 .w-full{
   width: 100%;
+}
+
+//Na que bra de linha, melhor usar o max-width do que o \n
+
+
+.btn-getstart{
+  padding: 15px 25px;
+  background: white;
+  color: #539D98;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.card-turbocharge{
+  position: absolute;
+  max-width: 538px;
+  z-index: 10;
+  padding-top: 80px;
+  left: 125px;
 }
